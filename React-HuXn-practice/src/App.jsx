@@ -6,6 +6,9 @@ import UserStatus from './components/Exercises/UserStatus';
 import { Greeting } from './components/Exercises/Greeting';
 import { StyledCard } from './components/Exercises/StyledCard.jsx';
 import ProfileCard from './components/Exercises/ProfileCard';
+import UseState from './components/useState.jsx';
+import Parent from './components/PropDrill/Parent.jsx';
+import Storage from './components/LocalStorage/Storage.jsx';
 
 function App() {
 
@@ -26,9 +29,12 @@ function App() {
 
       {/* <Greeting timeOfDay={"morning"} /> */}
 
-      <StyledCard />
+      {/* <StyledCard />
 
-      <ProfileCard />
+      <ProfileCard /> */}
+      {/* <UseState /> */}
+      {/* <Parent /> */}
+      <Storage />
 
     </>
   )
